@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.lblStudentName = new System.Windows.Forms.Label();
+            this.lblContact = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblStudentName
@@ -41,11 +42,22 @@
             this.lblStudentName.TabIndex = 0;
             this.lblStudentName.Text = "Student Name - GitHub Beginner Lab";
             // 
+            // lblContact
+            // 
+            this.lblContact.AutoSize = true;
+            this.lblContact.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblContact.Location = new System.Drawing.Point(57, 86);
+            this.lblContact.Name = "lblContact";
+            this.lblContact.Size = new System.Drawing.Size(232, 20);
+            this.lblContact.TabIndex = 1;
+            this.lblContact.Text = "Contact Number: 09152191699";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(497, 292);
+            this.Controls.Add(this.lblContact);
             this.Controls.Add(this.lblStudentName);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -57,6 +69,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblStudentName;
+        private System.Windows.Forms.Label lblContact;
     }
 }
 
