@@ -32,6 +32,8 @@
             this.lblContact = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblYearLevel = new System.Windows.Forms.Label();
+            this.lblStudentId = new System.Windows.Forms.Label();
+            this.lblProgram = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblStudentName
@@ -74,11 +76,33 @@
             this.lblYearLevel.TabIndex = 3;
             this.lblYearLevel.Text = "Year Level: 2nd Year";
             // 
+            // lblStudentId
+            // 
+            this.lblStudentId.AutoSize = true;
+            this.lblStudentId.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblStudentId.Location = new System.Drawing.Point(58, 146);
+            this.lblStudentId.Name = "lblStudentId";
+            this.lblStudentId.Size = new System.Drawing.Size(199, 20);
+            this.lblStudentId.TabIndex = 4;
+            this.lblStudentId.Text = "Student ID - 02000654321";
+            // 
+            // lblProgram
+            // 
+            this.lblProgram.AutoSize = true;
+            this.lblProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblProgram.Location = new System.Drawing.Point(58, 166);
+            this.lblProgram.Name = "lblProgram";
+            this.lblProgram.Size = new System.Drawing.Size(121, 20);
+            this.lblProgram.TabIndex = 5;
+            this.lblProgram.Text = "Program: BSTM";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(497, 292);
+            this.Controls.Add(this.lblProgram);
+            this.Controls.Add(this.lblStudentId);
             this.Controls.Add(this.lblYearLevel);
             this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.lblContact);
@@ -96,6 +120,8 @@
         private System.Windows.Forms.Label lblContact;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.Label lblYearLevel;
+        private System.Windows.Forms.Label lblStudentId;
+        private System.Windows.Forms.Label lblProgram;
     }
 }
 
