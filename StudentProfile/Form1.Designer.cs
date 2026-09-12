@@ -62,7 +62,7 @@
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(299, 20);
             this.lblEmail.TabIndex = 2;
-            this.lblEmail.Text = "Email Address: andreiallasac@gmail.com";
+            this.lblEmail.Text = "Email Address: allasacandrei@gmail.com";
             // 
             // lblYearLevel
             // 
