@@ -30,13 +30,15 @@
         {
             this.lblStudentName = new System.Windows.Forms.Label();
             this.lblContact = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
+            this.lblYearLevel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblStudentName
             // 
             this.lblStudentName.AutoSize = true;
             this.lblStudentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblStudentName.Location = new System.Drawing.Point(57, 57);
+            this.lblStudentName.Location = new System.Drawing.Point(57, 66);
             this.lblStudentName.Name = "lblStudentName";
             this.lblStudentName.Size = new System.Drawing.Size(275, 20);
             this.lblStudentName.TabIndex = 0;
@@ -52,11 +54,33 @@
             this.lblContact.TabIndex = 1;
             this.lblContact.Text = "Contact Number: 09152191699";
             // 
+            // lblEmail
+            // 
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblEmail.Location = new System.Drawing.Point(57, 106);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(299, 20);
+            this.lblEmail.TabIndex = 2;
+            this.lblEmail.Text = "Email Address: andreiallasac@gmail.com";
+            // 
+            // lblYearLevel
+            // 
+            this.lblYearLevel.AutoSize = true;
+            this.lblYearLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblYearLevel.Location = new System.Drawing.Point(57, 126);
+            this.lblYearLevel.Name = "lblYearLevel";
+            this.lblYearLevel.Size = new System.Drawing.Size(153, 20);
+            this.lblYearLevel.TabIndex = 3;
+            this.lblYearLevel.Text = "Year Level: 3rd Year";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(497, 292);
+            this.Controls.Add(this.lblYearLevel);
+            this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.lblContact);
             this.Controls.Add(this.lblStudentName);
             this.Name = "Form1";
@@ -70,6 +94,8 @@
 
         private System.Windows.Forms.Label lblStudentName;
         private System.Windows.Forms.Label lblContact;
+        private System.Windows.Forms.Label lblEmail;
+        private System.Windows.Forms.Label lblYearLevel;
     }
 }
 
