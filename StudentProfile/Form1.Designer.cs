@@ -72,9 +72,9 @@
             this.lblYearLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblYearLevel.Location = new System.Drawing.Point(57, 126);
             this.lblYearLevel.Name = "lblYearLevel";
-            this.lblYearLevel.Size = new System.Drawing.Size(157, 20);
+            this.lblYearLevel.Size = new System.Drawing.Size(153, 20);
             this.lblYearLevel.TabIndex = 3;
-            this.lblYearLevel.Text = "Year Level: 2nd Year";
+            this.lblYearLevel.Text = "Year Level: 3rd Year";
             // 
             // lblStudentId
             // 
