@@ -84,7 +84,7 @@
             this.lblStudentId.Name = "lblStudentId";
             this.lblStudentId.Size = new System.Drawing.Size(199, 20);
             this.lblStudentId.TabIndex = 4;
-            this.lblStudentId.Text = "Student ID - 02000123456";
+            this.lblStudentId.Text = "Student ID - 02000654321";
             // 
             // lblProgram
             // 
@@ -92,9 +92,9 @@
             this.lblProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblProgram.Location = new System.Drawing.Point(58, 166);
             this.lblProgram.Name = "lblProgram";
-            this.lblProgram.Size = new System.Drawing.Size(113, 20);
+            this.lblProgram.Size = new System.Drawing.Size(121, 20);
             this.lblProgram.TabIndex = 5;
-            this.lblProgram.Text = "Program: BSIT";
+            this.lblProgram.Text = "Program: BSTM";
             // 
             // Form1
             // 
