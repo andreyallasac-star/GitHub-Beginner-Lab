@@ -56,7 +56,7 @@
             this.lblContact.Name = "lblContact";
             this.lblContact.Size = new System.Drawing.Size(232, 20);
             this.lblContact.TabIndex = 1;
-            this.lblContact.Text = "Contact Number: 09123456789";
+            this.lblContact.Text = "Contact Number: 09736485920";
             // 
             // lblEmail
             // 
@@ -74,7 +74,7 @@
             this.lblYearLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblYearLevel.Location = new System.Drawing.Point(57, 126);
             this.lblYearLevel.Name = "lblYearLevel";
-            this.lblYearLevel.Size = new System.Drawing.Size(153, 20);
+            this.lblYearLevel.Size = new System.Drawing.Size(152, 20);
             this.lblYearLevel.TabIndex = 3;
             this.lblYearLevel.Text = "Year Level: 1st Year";
             // 
