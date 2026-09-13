@@ -76,7 +76,7 @@
             this.lblYearLevel.Name = "lblYearLevel";
             this.lblYearLevel.Size = new System.Drawing.Size(153, 20);
             this.lblYearLevel.TabIndex = 3;
-            this.lblYearLevel.Text = "Year Level: 3rd Year";
+            this.lblYearLevel.Text = "Year Level: 1st Year";
             // 
             // lblStudentId
             // 
