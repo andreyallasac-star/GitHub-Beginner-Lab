@@ -74,9 +74,9 @@
             this.lblYearLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblYearLevel.Location = new System.Drawing.Point(57, 126);
             this.lblYearLevel.Name = "lblYearLevel";
-            this.lblYearLevel.Size = new System.Drawing.Size(221, 20);
+            this.lblYearLevel.Size = new System.Drawing.Size(152, 20);
             this.lblYearLevel.TabIndex = 3;
-            this.lblYearLevel.Text = "Year Level: 1st Year Alternate";
+            this.lblYearLevel.Text = "Year Level: 1st Year";
             // 
             // lblStudentId
             // 
@@ -114,9 +114,9 @@
             this.lblCurrentYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblCurrentYear.Location = new System.Drawing.Point(58, 206);
             this.lblCurrentYear.Name = "lblCurrentYear";
-            this.lblCurrentYear.Size = new System.Drawing.Size(168, 20);
+            this.lblCurrentYear.Size = new System.Drawing.Size(173, 20);
             this.lblCurrentYear.TabIndex = 7;
-            this.lblCurrentYear.Text = "Current Year: 1st Year";
+            this.lblCurrentYear.Text = "Current Year: 2nd Year";
             // 
             // Form1
             // 
