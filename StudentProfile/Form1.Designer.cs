@@ -78,9 +78,9 @@
             this.lblYearLevel.Location = new System.Drawing.Point(76, 155);
             this.lblYearLevel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblYearLevel.Name = "lblYearLevel";
-            this.lblYearLevel.Size = new System.Drawing.Size(190, 25);
+            this.lblYearLevel.Size = new System.Drawing.Size(195, 25);
             this.lblYearLevel.TabIndex = 3;
-            this.lblYearLevel.Text = "Year Level: 3rd Year";
+            this.lblYearLevel.Text = "Year Level: 2nd Year";
             // 
             // lblStudentId
             // 
@@ -139,7 +139,7 @@
             this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.lblContact);
             this.Controls.Add(this.lblStudentName);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
