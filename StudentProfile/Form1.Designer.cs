@@ -56,7 +56,7 @@
             this.lblContact.Name = "lblContact";
             this.lblContact.Size = new System.Drawing.Size(232, 20);
             this.lblContact.TabIndex = 1;
-            this.lblContact.Text = "Contact Number: 09152191699";
+            this.lblContact.Text = "Contact Number: 09152191696";
             // 
             // lblEmail
             // 
