@@ -122,9 +122,9 @@
             this.lblCurrentYear.Location = new System.Drawing.Point(77, 254);
             this.lblCurrentYear.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCurrentYear.Name = "lblCurrentYear";
-            this.lblCurrentYear.Size = new System.Drawing.Size(208, 25);
+            this.lblCurrentYear.Size = new System.Drawing.Size(206, 25);
             this.lblCurrentYear.TabIndex = 7;
-            this.lblCurrentYear.Text = "Current Year: 3rd Year";
+            this.lblCurrentYear.Text = "Current Year: 1st Year";
             // 
             // Form1
             // 
